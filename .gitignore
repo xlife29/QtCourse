@@ -1,0 +1,19 @@
+# qmake编译产物
+build/
+build-*/
+debug/
+release/
+Makefile*
+*.o
+*.obj
+*.exe
+
+# QtCreator配置文件
+*.user
+*.user.*
+.qt/
+
+# 临时文件
+*.bak
+*.tmp
+*.log
