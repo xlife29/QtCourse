@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="windowTitle"><string>关于简单文本编辑器</string></property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item><widget class="QLabel" name="iconLabel"><property name="text"><string>📝</string></property><property name="alignment"><set>Qt::AlignCenter</set></property><property name="font"><font><pointsize>28</pointsize></font></property></widget></item>
+   <item><widget class="QLabel" name="titleLabel"><property name="text"><string>简单文本编辑器</string></property><property name="alignment"><set>Qt::AlignCenter</set></property><property name="font"><font><pointsize>14</pointsize><bold>true</bold></font></property></widget></item>
+   <item><widget class="QLabel" name="infoLabel"><property name="text"><string>Qt Widgets 文本编辑器\n支持文本文件编辑、查找替换和格式设置。</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget></item>
+   <item><widget class="QDialogButtonBox" name="buttonBox"><property name="standardButtons"><set>QDialogButtonBox::Ok</set></property></widget></item>
+  </layout>
+ </widget>
+ <resources/><connections/>
+</ui>

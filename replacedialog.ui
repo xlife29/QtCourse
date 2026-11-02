@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReplaceDialog</class>
+ <widget class="QDialog" name="ReplaceDialog">
+  <property name="windowTitle"><string>查找和替换</string></property>
+  <property name="modal"><bool>true</bool></property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0"><widget class="QLabel" name="findLabel"><property name="text"><string>查找内容：</string></property></widget></item>
+   <item row="0" column="1" colspan="3"><widget class="QLineEdit" name="findEdit"><property name="placeholderText"><string>输入要查找的文本</string></property></widget></item>
+   <item row="1" column="0"><widget class="QLabel" name="replaceLabel"><property name="text"><string>替换为：</string></property></widget></item>
+   <item row="1" column="1" colspan="3"><widget class="QLineEdit" name="replaceEdit"><property name="placeholderText"><string>输入替换文本</string></property></widget></item>
+   <item row="2" column="0" colspan="4"><widget class="QCheckBox" name="caseSensitiveCheck"><property name="text"><string>区分大小写</string></property></widget></item>
+   <item row="3" column="0"><widget class="QPushButton" name="findNextButton"><property name="text"><string>查找下一个</string></property></widget></item>
+   <item row="3" column="1"><widget class="QPushButton" name="replaceButton"><property name="text"><string>替换</string></property></widget></item>
+   <item row="3" column="2"><widget class="QPushButton" name="replaceAllButton"><property name="text"><string>全部替换</string></property></widget></item>
+   <item row="3" column="3"><widget class="QPushButton" name="closeButton"><property name="text"><string>关闭</string></property></widget></item>
+  </layout>
+ </widget>
+ <resources/><connections/>
+</ui>
